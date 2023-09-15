@@ -1,0 +1,47 @@
+body{
+    font-family: sans-serif;
+    background: url('https://4kwallpapers.com/images/walls/thumbs_3t/4965.jpg'),
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.card{
+    width: 280px;
+    height: 350px;
+    border: 1px solid gray;
+}
+
+.photo{
+    width: 100px;
+    border-radius: 50px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card-btn{
+    background-color: aqua;
+}
+.home-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-container{
+    width: 900px;
+    margin-right: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.cart{
+    width: 300px;
+    margin-left: 30px;
+}
